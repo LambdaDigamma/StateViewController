@@ -28,11 +28,24 @@ xcuserdata/
 timeline.xctimeline
 playground.xcworkspace
 
-# Swift Package Manager
-Packages/
-Package.pins
+### Swift Package Manager ###
+.build
+DerivedData
+/.previous-build
+xcuserdata
+.DS_Store
+*~
+\#*
+.\#*
+.*.sw[nop]
+*.xcscmblueprint
+/default.profraw
+Utilities/Docker/*.tar.gz
+.swiftpm
 Package.resolved
-.build/
+/build
+*.pyc
+
 
 # Carthage
 Carthage/Checkouts
