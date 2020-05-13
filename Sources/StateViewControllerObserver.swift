@@ -1,3 +1,9 @@
+#if canImport(UIKit)
+import UIKit
+#elseif canImport(tvOS)
+import tvOS
+#endif
+
 public protocol AnyStateViewControllerObserver: AnyObject {
     func remove()
 }

@@ -1,3 +1,9 @@
+#if canImport(UIKit)
+import UIKit
+#elseif canImport(tvOS)
+import tvOS
+#endif
+
 public extension Notification.Name {
     /// Notification name that fires when a state view controller updates its view hierarchy
     static let stateViewControllerDidChangeViewHierarchy = Notification.Name(
